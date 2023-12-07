@@ -22,7 +22,7 @@
 ![Screenshot03 - работа приложения](https://github.com/Ask1509/Software_Architecture_HW11/blob/722a613874818b91c4aa72631a2fb29553f1c1d5/img/page03.png))
 ![Screenshot04 - работа приложения](/img/page04.png)
 ![Screenshot05 - работа приложения](/img/page05.png)
-![Screenshot06 - работа приложения](/img/page06.png "Work screen 5")
+![Screenshot06 - работа приложения](/img/page06.png )
 
 ## Компоновка приложения
 Графический интерфейс редактируется с помощью [Scene Builder](https://gluonhq.com/products/scene-builder/ "Страница Scene Builder"). 
@@ -30,7 +30,7 @@
 Слева — иерархия объектов окна приложения. Справа — идентификатор _fx:id send_ для кнопки `Send`, и указание на вызов метода _sendButton_ из класса Controller.java. 
 
 
-![Screenshot07 - работа в Scene Builder](/img/scenebuilder01.png "Work screen 5")
+![Screenshot07 - работа в Scene Builder](/img/scenebuilder01.png)
 
 Для текстового поля и соседней с ним кнопки в контроллер введены методы
 
@@ -67,7 +67,7 @@ private void sendMessage() {
 
 Справа — у поля Editable снята галка, для запрета ввода текста в TextArea с меткой Chat. Такой же запрет установлен для TextArea с меткой Clients.
 
-![Screenshot08 - работа в Scene Builder](/img/scenebuilder02.png "Work screen 5")
+![Screenshot08 - работа в Scene Builder](/img/scenebuilder02.png)
 
 ---
 Аналогичным образом можно было бы смоделировать интерфейс в Figma, однако в контексте написания кода и работающего MVP в конкретном случае использовалась связка JavaFX и Scene Builder. А проектирование UI уже можно отдать в дизайн-команду вместе с работающим прототипом.
